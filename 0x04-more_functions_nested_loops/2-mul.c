@@ -1,13 +1,13 @@
 #include "main.h"
 
-
 /**
- * main - check the code
- *
- * Return: Always 0.
- */
+* mul -> multiplying 2 numbers
+* @a: interger param1
+* @b: integer param 2
+* Return: success and intiger
+*/
 
-int multiplication(int a, int b)
+int mul(int a, int b)
 {
 	return (a * b);
 }
