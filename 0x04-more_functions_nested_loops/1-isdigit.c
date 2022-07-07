@@ -1,12 +1,10 @@
 #include "main.h"
 
-
 /**
- * main - check the code
- *
- * Return: Always 0.
- *
- */
+* _isdigit - funtion to check for a digit
+* @c: an integer argument
+* Return: success
+*/
 int _isdigit(int c)
 {
 	return (c >= '0' && c <= '9');
